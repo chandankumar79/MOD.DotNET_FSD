@@ -9,7 +9,8 @@
           "Port": 9090
         }
       ],
-      "UpstreamPathTemplate": "/authservice/{catchAll}"
+      "UpstreamPathTemplate": "/authservice/{catchAll}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ]
     },
     {
       "DownstreamPathTemplate": "/api/admin",
@@ -20,7 +21,8 @@
           "Port": 9091
         }
       ],
-      "UpstreamPathTemplate": "/adminservice"
+      "UpstreamPathTemplate": "/adminservice",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ]
     },
     {
       "DownstreamPathTemplate": "/api/admin/{catchAll}",
@@ -31,7 +33,8 @@
           "Port": 9091
         }
       ],
-      "UpstreamPathTemplate": "/adminservice/{catchAll}"
+      "UpstreamPathTemplate": "/adminservice/{catchAll}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ]
     },
     {
       "DownstreamPathTemplate": "/api/mentor",
@@ -42,7 +45,8 @@
           "Port": 9092
         }
       ],
-      "UpstreamPathTemplate": "/mentorservice"
+      "UpstreamPathTemplate": "/mentorservice",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ]
     },
     {
       "DownstreamPathTemplate": "/api/mentor/{catchAll}",
@@ -53,7 +57,8 @@
           "Port": 9092
         }
       ],
-      "UpstreamPathTemplate": "/mentorservice/{catchAll}"
+      "UpstreamPathTemplate": "/mentorservice/{catchAll}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ]
     },
     {
       "DownstreamPathTemplate": "/api/student",
@@ -64,7 +69,8 @@
           "Port": 9093
         }
       ],
-      "UpstreamPathTemplate": "/studentservice"
+      "UpstreamPathTemplate": "/studentservice",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ]
     },
     {
       "DownstreamPathTemplate": "/api/student/{catchAll}",
@@ -75,7 +81,8 @@
           "Port": 9093
         }
       ],
-      "UpstreamPathTemplate": "/studentservice/{catchAll}"
+      "UpstreamPathTemplate": "/studentservice/{catchAll}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ]
     }
   ],
   "GlobalConfiguration": {
