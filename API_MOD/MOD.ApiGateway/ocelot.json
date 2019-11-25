@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 4430
+          "Port": 44310
         }
       ],
       "UpstreamPathTemplate": "/authservice/{catchAll}"
@@ -17,7 +17,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 4431
+          "Port": 44311
         }
       ],
       "UpstreamPathTemplate": "/adminservice"
@@ -28,7 +28,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 4431
+          "Port": 44311
         }
       ],
       "UpstreamPathTemplate": "/adminservice/{catchAll}"
@@ -39,7 +39,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 4432
+          "Port": 44312
         }
       ],
       "UpstreamPathTemplate": "/mentorservice"
@@ -50,7 +50,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 4432
+          "Port": 44312
         }
       ],
       "UpstreamPathTemplate": "/mentorservice/{catchAll}"
@@ -61,7 +61,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 4433
+          "Port": 44313
         }
       ],
       "UpstreamPathTemplate": "/studentservice"
@@ -72,13 +72,13 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 4433
+          "Port": 44313
         }
       ],
       "UpstreamPathTemplate": "/studentservice/{catchAll}"
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:4435"
+    "BaseUrl": "https://localhost:44315"
   }
 }
