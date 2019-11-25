@@ -20,7 +20,7 @@
           "Port": 44311
         }
       ],
-      "UpstreamPathTemplate": "/adminservice"
+      "UpstreamPathTemplate": "/adminservice",
     },
     {
       "DownstreamPathTemplate": "/api/admin/{catchAll}",
@@ -42,7 +42,8 @@
           "Port": 44312
         }
       ],
-      "UpstreamPathTemplate": "/mentorservice"
+      "UpstreamPathTemplate": "/mentorservice",
+      "UpstreamHttpMethod": [ "Put", "Delete" ]
     },
     {
       "DownstreamPathTemplate": "/api/mentor/{catchAll}",
@@ -61,10 +62,10 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 44313
+          "Port": 4433
         }
       ],
-      "UpstreamPathTemplate": "/studentservice"
+      "UpstreamPathTemplate": "/studentservice",
     },
     {
       "DownstreamPathTemplate": "/api/student/{catchAll}",
@@ -79,6 +80,6 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:44300"
+    "BaseUrl": "https://localhost:44315"
   }
 }
