@@ -10,7 +10,7 @@
         }
       ],
       "UpstreamPathTemplate": "/authservice/{catchAll}",
-      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ]
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ]
     },
     {
       "DownstreamPathTemplate": "/api/admin",
@@ -22,7 +22,7 @@
         }
       ],
       "UpstreamPathTemplate": "/adminservice",
-      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ]
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ]
     },
     {
       "DownstreamPathTemplate": "/api/admin/{catchAll}",
@@ -34,7 +34,7 @@
         }
       ],
       "UpstreamPathTemplate": "/adminservice/{catchAll}",
-      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ]
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ]
     },
     {
       "DownstreamPathTemplate": "/api/mentor",
@@ -46,7 +46,7 @@
         }
       ],
       "UpstreamPathTemplate": "/mentorservice",
-      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ]
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ]
     },
     {
       "DownstreamPathTemplate": "/api/mentor/{catchAll}",
@@ -58,7 +58,7 @@
         }
       ],
       "UpstreamPathTemplate": "/mentorservice/{catchAll}",
-      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ]
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ]
     },
     {
       "DownstreamPathTemplate": "/api/student",
@@ -70,7 +70,7 @@
         }
       ],
       "UpstreamPathTemplate": "/studentservice",
-      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ]
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ]
     },
     {
       "DownstreamPathTemplate": "/api/student/{catchAll}",
@@ -82,7 +82,7 @@
         }
       ],
       "UpstreamPathTemplate": "/studentservice/{catchAll}",
-      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ]
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ]
     }
   ],
   "GlobalConfiguration": {
